@@ -1,42 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrei Chicu - CV/Resume</title>
-  </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="tufte.css">
+		<title>Andrei Chicu - CV/Resume</title>
+	</head>
 
-  <body>
-  <section>
-    <h1>Andrei Chicu</h1>
-    <p>Email: <a href="mailto:andrei.chicu@isa.utm.md">andrei.chicu@isa.utm.md</a></p>
-  </section>
-  <hr />
-  <section>
-    <h2>About Me</h2>
-    <p>
-      A software dev and student. Currently passionate about sync technologies and real time programming. Studying about Electric SQL and local first webapps in spare time.
-    </p>
-  </section>
-  <hr />
-  <section>
-    <h2>Studies</h2>
-    <ul>
-      <li>
-        <em>Bachelor's Degree in Computer Science</em></li>
-        <ul>
-          <li><em> University of Moldova (UTM)</em></li>
-          <li><em> 2023 - Present </em></li>
-          <li>Favorite Courses:
-            <ul>
-              <li>Databases</li>
-              <li>Formal Languages and Automata</li>
-              <li>Networks Programming</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-  </body>
+	<body>
+		<article>
+			<section>
+				<h1>Andrei Chicu</h1>
+				<p>Email: <a href="mailto:andrei.chicu@isa.utm.md">andrei.chicu@isa.utm.md</a></p>
+			</section>
+			<hr>
+			<section>
+				<h2>About Me</h2>
+				<p>
+					A software dev and student. Currently passionate about sync technologies and real time programming. Studying about Electric SQL and local first webapps in spare time.
+				</p>
+				<p>
+					Note, this page uses Tufte CSS
+					<label for="tufte" class="margin-toggle sidenote-number">
+					</label>
+					&nbsp;for styling.
+					<input type="checkbox" id="tufte" class="margin-toggle">
+					<span class="sidenote">
+						About Tufte CSS<br>
+						<a href="https://edwardtufte.github.io/tufte-css/">https://edwardtufte.github.io/tufte-css/</a>
+					</span>
+				</p>
+			</section>
+			<section>
+				<h2>Studies</h2>
+				<h3>Bachelor's Degree in Computer Science</h3>
+				<p>
+					At
+					<em>Technical University of Moldova, 2023 &ndash; Present</em>
+					<label for="utm" class="margin-toggle"></label>
+					<input type="checkbox" id="utm" class="margin-toggle">
+					<span class="marginnote">
+						<a href="https://utm.md/">https://utm.md/</a>
+					</span>
+				</p>
+				<h3>Favorite Courses:</h3>
+				<ul>
+					<li>Databases</li>
+					<li>Formal Languages and Automata</li>
+					<li>Networks Programming</li>
+				</ul>
+			</section>
+		</article>
+	</body>
 </html>
